@@ -21,8 +21,9 @@ Installation must be in 3 parts:
 ### Lambda function (Python 3.6)
 1. Create new Lambda Function in your AWS Account.
 2. Edit the lambda-function.py file with your e-mail account and RDS access settings.
-3. Upload the content of .zip file on Labda function.
-4. Perform AWS connection rules and apply access policies.
+3. Compress the saved lamda_function.py file and psycopg2 folder in a new .zip file.
+4. Upload the content of .zip file on Labda function.
+5. Perform AWS connection rules and apply access policies.
 
 ## Live Demo
 * You can see live demo and upload your own .csv file in demo Google Sites page: [https://sites.google.com/view/stori-file-balance-upload-demo/main](https://sites.google.com/view/stori-file-balance-upload-demo/main).
